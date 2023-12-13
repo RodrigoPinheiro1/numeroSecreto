@@ -25,3 +25,8 @@ recognition.addEventListener('result', (e) => {
     exibiChuteNaTela(chute)
 });
 
+
+
+recognition.addEventListener('end', () =>{
+    recognition.start();
+} )
